@@ -47,5 +47,27 @@ class MainClass
     }
     return answer;
   } 
-  
+
+// Solution using Dictionary Collection
+/* 
+  Dictionary<int, string> d = new Dictionary<int, string>()
+  {   
+    {1, "one"},
+    {2, "two"},
+    {3, "three"},
+    {4, "four"},
+    {5, "five"}
+  };
+
+  if (d.ContainsKey(num))
+      {
+      Console.WriteLine(d[num]);
+      }                       
+
+  // Loop through Dictionary
+  foreach (var pair in d)
+      {
+      Console.WriteLine("{0}, {1}", pair.Key, pair.Value);
+      }
+*/
 }
